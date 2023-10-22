@@ -3,4 +3,4 @@ Nix Raid Bot Written on D.js v14 | Fully Auto Bypass, Bypass Raid Bots -> Coded 
 
 # To Start Bot:
 use `npm install`
-`node .`
+`npm start`
