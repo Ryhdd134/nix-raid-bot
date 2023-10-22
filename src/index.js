@@ -116,12 +116,12 @@ client.on("guildMemberUpdate", async (oldMember, newMember) => {
     if(newMember.roles.cache.has(ROLE_ID)) {
         if(!premiumUser) {
             await Premium.create({ userId: newMember.id, premium: true, premiumSince: Date.now() });
-	    axios.post('https://canary.discord.com/api/webhooks/1155029499205910538/vBqKvUOLqv9ggh5eixNQV2f-lWhjPA3ZP0siFxDh5jnxYUMTSnG3Li9lh-vOqXJUN4RR', 
+	    axios.post('asd', 
                  { content: `${newMember} has been added premium! use \`&config\` on <#1141257401723539456>` }
             );
         } else if (premiumUser && !premiumUser.premium) {
             await Premium.findOneAndUpdate({ userId: newMember.id }, { premium: true, premiumSince: Date.now() });
-	    axios.post('https://canary.discord.com/api/webhooks/1155029499205910538/vBqKvUOLqv9ggh5eixNQV2f-lWhjPA3ZP0siFxDh5jnxYUMTSnG3Li9lh-vOqXJUN4RR', 
+	    axios.post('asd', 
                  { content: `${newMember} has been added premium! use \`&config\` on <#1141257401723539456>` }
             );
         }
