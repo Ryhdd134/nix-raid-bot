@@ -1,0 +1,32 @@
+{
+    "TOKEN": "",
+    "DB": "",
+    "WEBHOOK_LOGS": "",
+    "GUILD_ID": "guild support ID",
+    "ROLE_ID": "premium role id",
+    "SECURED_GUILDS": [
+
+    ],
+    "ALLOWED_COMMANDS": [
+        "leave-bot", 
+        "guilds", 
+        "invite-guild", 
+        "invite", 
+        "boosters", 
+        "help",
+        "remove.premium", 
+        "set.premium", 
+        "config", 
+        "config.message", 
+        "config.channels", 
+        "config.appareance.name", 
+        "config.appareance.icon", 
+        "config.autoraid"
+    ],
+    "BOTS_ANTI_RAID": [
+        "651095740390834176", 
+        "416358583220043796", 
+        "548410451818708993", 
+        "817892729173311549"
+    ]
+}
